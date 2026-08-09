@@ -1,0 +1,48 @@
+name: ❓ Question / Support
+description: Ask a question or request support for IDEAgent
+title: "[Question] <short description>"
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use this template for general questions, configuration help, and support requests.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which package does your question relate to?
+      options:
+        - mcp-server
+        - rag-server
+        - gateway
+        - PyCharm IDEAgent Plugin
+        - PyCharm RAG File Watcher Plugin
+        - General / Setup
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: |
+        Provide any relevant context, configuration, or steps you have already tried.
+        **Do not include API keys or credentials.**
+
+  - type: checkboxes
+    id: privacy_check
+    attributes:
+      label: Privacy Checklist
+      options:
+        - label: I have not included any API keys, tokens, or credentials in this request.
+          required: true

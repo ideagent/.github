@@ -1,0 +1,97 @@
+name: 🐛 Bug Report
+description: Report a bug in any IDEAgent component
+title: "[Bug] <short description>"
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug. Please fill in as much detail as possible.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected Component
+      description: Which package does this bug affect?
+      options:
+        - mcp-server
+        - rag-server
+        - gateway
+        - PyCharm IDEAgent Plugin
+        - PyCharm RAG File Watcher Plugin
+        - Multiple / Unknown
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of the bug.
+      placeholder: What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide steps to reliably reproduce the issue.
+      placeholder: |
+        1. Start the mcp-server with ...
+        2. Open PyCharm and ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behaviour
+      description: What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: |
+        Please provide the following information:
+        - OS and version
+        - PyCharm version (if applicable)
+        - Python version
+        - IDEAgent component versions
+      placeholder: |
+        - OS: macOS 14.x / Ubuntu 22.04 / Windows 11
+        - PyCharm: 2024.x
+        - Python: 3.11.x
+        - mcp-server: 0.x.x
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Logs
+      description: Paste any relevant log output here. **Do not include API keys or credentials.**
+      render: shell
+
+  - type: checkboxes
+    id: privacy_check
+    attributes:
+      label: Privacy Checklist
+      description: Please confirm before submitting.
+      options:
+        - label: I have not included any API keys, tokens, or credentials in this report.
+          required: true
+        - label: I have not included any private code or sensitive business logic.
+          required: true

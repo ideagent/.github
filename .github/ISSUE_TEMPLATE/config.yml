@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/ideagent/.github#readme
+    about: Read the IDEAgent overview and component descriptions.
