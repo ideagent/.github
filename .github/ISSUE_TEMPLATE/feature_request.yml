@@ -1,0 +1,68 @@
+name: 💡 Feature Request
+description: Suggest a new feature or improvement for any IDEAgent component
+title: "[Feature] <short description>"
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your idea! Please describe the feature you would like to see added.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Target Component
+      description: Which package would this feature affect?
+      options:
+        - mcp-server
+        - rag-server
+        - gateway
+        - PyCharm IDEAgent Plugin
+        - PyCharm RAG File Watcher Plugin
+        - Multiple / Cross-cutting
+        - New / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: |
+        Why do you need this feature? What problem does it solve?
+        Describe the use case clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Proposed Solution
+      description: Describe the feature you would like to see implemented.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Are there workarounds or alternative approaches you have already tried?
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Low — nice to have
+        - Medium — would significantly improve my workflow
+        - High — blocking my use of IDEAgent
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: privacy_check
+    attributes:
+      label: Privacy Checklist
+      options:
+        - label: I have not included any API keys, tokens, or credentials in this request.
+          required: true
