@@ -12,6 +12,7 @@ IDEAgent is the first fully self-hosted, privacy-first AI agent system tightly i
 
 - **We do not resell your APIs.** You bring your own API keys and they stay on your infrastructure.
 - **No data retention on our side.** Everything runs on machines you control.
+- **No telemetry** We believe that if any issues occurs we will be contacted to solve it, we do not use telemetry for this reason.
 - **Context is assembled locally.** Only the context window you construct is sent to the AI provider, under _your_ agreement with that provider.
 - **Data retention agreements are between API providers and end users.** IDEAgent is simply the delivery mechanism — transparent and auditable.
 
