@@ -1,7 +1,7 @@
 IDEAgent End User License Agreement (Developer EULA)
-Last updated: [DATE]
+Last updated: 19.10.2026
 
-This End User License Agreement ("Agreement") is a legal agreement between you, either an individual or a single entity ("You" or "Licensee"), and IDEAgent [PLACEHOLDER: legal entity/trade description, e.g. "Einzelunternehmen" — to be inserted once trade registration (Gewerbeanmeldung) is complete], registered at [ADDRESS], Germany ("Licensor", "we", "us") governing your use of the IDEAgent plugin(s) for JetBrains IDEs, the associated backend components (including but not limited to the gateway, MCP server, RAG server, and any other containers distributed alongside the plugin), and any related documentation (collectively, the "Software").
+This End User License Agreement ("Agreement") is a legal agreement between you, either an individual or a single entity ("You" or "Licensee"), and IDEAgent Gewerbeanmeldung, registered at Bahnhofstraße 11 85375 Neufahrn b. Freising, Germany ("Licensor", "we", "us") governing your use of the IDEAgent plugin(s) for JetBrains IDEs, the associated backend components (including but not limited to the gateway, MCP server, RAG server, and any other containers distributed alongside the plugin), and any related documentation (collectively, the "Software").
 
 By downloading, installing, or using the Software, you agree to be bound by this Agreement. If you do not agree, do not install or use the Software.
 
