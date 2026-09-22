@@ -80,4 +80,4 @@ This Agreement is governed by the laws of the Federal Republic of Germany, exclu
 13. Miscellaneous
 If any provision of this Agreement is found unenforceable, the remaining provisions remain in full force. This Agreement, together with the Documentation, constitutes the entire agreement between You and Licensor regarding the Software.
 
-Contact: [SUPPORT EMAIL] · [LEGAL ENTITY NAME] · [ADDRESS]
+Contact: gsca075@gmail.com · Sandro Cantarella · Bahnhofstraße 11 85375 Neufahrn b. Freising, Germany
