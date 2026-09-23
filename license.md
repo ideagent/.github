@@ -52,6 +52,7 @@ Nothing in this Agreement grants You any right to:
 - otherwise exercise rights commonly associated with open-source software.
 
 All rights not expressly granted under this Agreement are reserved by Licensor.
+
 3.3 Confidential Technical Information
 You acknowledge that the Software contains Confidential Technical Information, trade secrets, and proprietary know-how belonging to Licensor.
 Confidential Technical Information remains the exclusive property of Licensor and shall not be disclosed, published, distributed, or otherwise made available to any third party without Licensor's prior written consent.
