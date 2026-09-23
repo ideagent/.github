@@ -36,9 +36,10 @@ The plugin stores API keys and tokens in the operating system keychain of the ma
 Licensor recommends running the gateway on the same local machine or local network as the plugin.
 Deploying the gateway on a remote host or cloud infrastructure is not recommended, as it causes keys and credentials to travel over that connection and increases exposure to interception or misconfiguration.
 If You choose to deploy the gateway remotely against this recommendation, You do so entirely at Your own risk, and Licensor assumes no responsibility or liability for any resulting compromise of Your keys, credentials, or data.
+
 3.2 Proprietary Nature of the Software
 The Software is proprietary software owned by Licensor and is licensed, not sold.
-Except for any third-party components expressly identified and licensed under their respective open-source licenses, no portion of the Software is provided under an open-source license.
+Except for third-party components that Licensor explicitly identifies as being subject to a separate open-source license, the Software is not open source and no rights associated with open-source software licenses are granted under this Agreement.
 Nothing in this Agreement grants You any right to:
 
 - access source code;
