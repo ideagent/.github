@@ -115,6 +115,7 @@ As set out in Section 3.1, keys travel over the network between the plugin and t
 7.3 The Software provides redaction of read and terminal tool results before such data is shown to an LLM.
 Redaction is provided as a configurable safeguard, not a guarantee. You remain responsible for what data You expose to any LLM provider.
 7.4 Because the Software does not collect personal data on Licensor's behalf, this Agreement does not include a separate Privacy Policy.
+7.5 To validate the licence and issue access to the Software's container images, the plugin contacts Licensor's licensing service using an anonymous, randomly generated licence key. No personal data, project content, or usage telemetry is transmitted.
 
 If a future version introduces data collection by Licensor, Licensor will update this Agreement and provide appropriate privacy documentation.
 This Section does not cover data collected by JetBrains or other third parties acting independently of Licensor.
