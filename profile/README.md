@@ -2,7 +2,7 @@
 
 > ⚠️ **NOTICE:** This project is the official commercial platform for ([IDEAgent](https://ideagent.github.io/)). We are not affiliated with the academic research paper or the repository hosted by declare-lab.
 
-> **Your data never leaves your machine. You own your APIs. You own your context.**
+> **Your data never leaves your infrastuctures. You own your APIs. You own your context.**
 
 IDEAgent is the first fully self-hosted, privacy-first AI agent system tightly integrated with PyCharm. It combines a purpose-built **MCP server**, a **RAG context engine**, and a smart **gateway** to deliver AI-powered coding assistance without any third-party data retention. All API keys are stored locally on the machines you control, and context is assembled on-device before being forwarded to your chosen AI provider.
 
