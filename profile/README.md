@@ -1,6 +1,6 @@
 # IDEAgent — Privacy-First, Self-Hosted AI for PyCharm
 
-> ⚠️ **NOTICE:** This project is the official commercial platform for IDEAgent ([ideagent/IDEAgent](https://github.com/ideagent/IDEAgent)). We are not affiliated with the academic research paper or the repository hosted by declare-lab.
+> ⚠️ **NOTICE:** This project is the official commercial platform for ([IDEAgent](https://ideagent.github.io/)). We are not affiliated with the academic research paper or the repository hosted by declare-lab.
 
 > **Your data never leaves your machine. You own your APIs. You own your context.**
 
